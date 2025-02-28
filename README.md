@@ -15,12 +15,12 @@ It detects and recognizes faces from a webcam and displays a message when a know
 ---
 
 ## 📂 Project Structure 📂 FaceRecognitionProject ┣ 📂 dataset/ 
-# Folder to store training images ┣ 📂 models/ 
-# Stores trained face model ┣ 📜 face_trainer.py 
-# Script to train the face recognizer ┣ 📜 recognize_faces.py 
-# Main script to detect and recognize faces ┣ 📜 README.md 
-# Project documentation ┗ 📜 requirements.txt 
-# List of required Python libraries
+- #### Folder to store training images ┣ 📂 models/ 
+- #### Stores trained face model ┣ 📜 face_trainer.py 
+- #### Script to train the face recognizer ┣ 📜 recognize_faces.py 
+- #### Main script to detect and recognize faces ┣ 📜 README.md 
+- #### Project documentation ┗ 📜 requirements.txt 
+- #### List of required Python libraries
 
 ---
 
@@ -31,10 +31,8 @@ Ensure you have **Python 3.7+** installed, then run:
 ```bash
 pip install -r requirements.txt
 pip install opencv-python numpy pyqt5
-
-
 ```
-🖼️ How It Works
+## 🖼️ How It Works
 1️⃣ Collect Face Data → Store images in the dataset/ folder.
 2️⃣ Train the Model → Run face_trainer.py to generate face_trained.yml.
 3️⃣ Recognize Faces → Run recognize_faces.py, and the program will:
@@ -44,20 +42,19 @@ pip install opencv-python numpy pyqt5
 - Display a PyQt5 message box with the person's name (auto-closes after 2 seconds)
 
 
-📌 Requirements
-✔ Python 3.7+
-✔ OpenCV (opencv-python)
-✔ NumPy (numpy)
-✔ PyQt5 (pyqt5)
+## 📌 Requirements
+- ✔ Python 3.7+
+- ✔ OpenCV (opencv-python)
+- ✔ NumPy (numpy)
+- ✔ PyQt5 (pyqt5)
 
 
 
-🛠️ Future Improvements
-🔹 Improve accuracy with deep learning models (e.g., FaceNet, Dlib)
-🔹 Database integration for storing recognized faces
-🔹 Multiple camera support
+## 🛠️ Future Improvements
+- 🔹 Improve accuracy with deep learning models (e.g., FaceNet, Dlib)
+- 🔹 Database integration for storing recognized faces
+- 🔹 Multiple camera support
 
-👨‍💻 Author
+## 👨‍💻 Author
 [Tush (Tushar M)]
 📧 Email: [tusharmankar@gmail.com]
-🔗 GitHub: [Your GitHub Profile]
